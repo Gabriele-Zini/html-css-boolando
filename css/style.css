@@ -60,6 +60,40 @@ header {
 .full-price{
     text-decoration: line-through;
 }
+
+.img-container {
+    position: relative;
+}
+
+.rectangle-container {
+    position: absolute;
+    left:0;
+    bottom:40px;
+}
+
+
+.rectangle {
+    display: inline-block;
+    min-width: 1.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 1.3rem;
+    padding-left: .8rem ;
+    padding-right: .8rem;
+    padding: .2rem .3rem; 
+ 
+     
+}
+
+.sale {
+    background-color: red;
+    
+}
+
+.green-washing {
+    background-color: green;
+    margin-left: .3rem;
+}
 /* FOOTER */
 
 footer {
