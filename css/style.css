@@ -19,6 +19,49 @@ img {
 
 /* HEADER */
 
+header {
+    height: 100px;
+}
+
 /* MAIN */
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px auto;
+    
+}
+
+
+.col {
+    width: calc(95% / 3);
+    margin-top: 20px;
+}
+
+.hidden-photo {
+    display:none;
+}
+
+.img-container:hover .hidden-photo {
+    display: inline-block;
+}
+
+.img-container:hover .shown-photo {
+    display:none;
+}
+
+.current-price {
+    font-weight: bold;
+    color:red;
+    margin-right: 10px;
+}
+
+.full-price{
+    text-decoration: line-through;
+}
 /* FOOTER */
+
+footer {
+    height: 100px;
+}
