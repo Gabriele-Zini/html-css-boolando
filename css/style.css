@@ -94,6 +94,24 @@ header {
     background-color: green;
     margin-left: .3rem;
 }
+
+
+i {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top:10px;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+
+i:hover {
+    color:red
+}
+
+
+
 /* FOOTER */
 
 footer {
