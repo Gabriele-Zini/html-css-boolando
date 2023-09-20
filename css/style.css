@@ -12,6 +12,21 @@ img {
 
 /* COMMON */
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+
 .container {
     width:80%;
     margin:0 auto;
@@ -21,15 +36,43 @@ img {
 
 header {
     height: 100px;
+    background-color: hsl(24.71deg 100% 50%);
+    align-items: center;
 }
 
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-list {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-list a {
+    color: white;
+}
+
+.logo-img {
+    width:150px;
+}
+.nav-icons {
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.nav-icons a {
+    color: white;
+}
 /* MAIN */
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 100px auto;
+    margin: 50px auto;
     
 }
 
@@ -96,7 +139,7 @@ header {
 }
 
 
-i {
+.img-heart {
     background-color: white;
     position: absolute;
     right: 0;
@@ -106,7 +149,7 @@ i {
 }
 
 
-i:hover {
+.img-heart:hover {
     color:red
 }
 
@@ -115,5 +158,33 @@ i:hover {
 /* FOOTER */
 
 footer {
-    height: 100px;
+    min-height: 100px;
+    background-color: hsl(0deg 0% 10.2%);
+    color: white;
+}
+
+.footer-div {
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+footer a {
+    color:white;
+}
+
+.firm-name h4 {
+margin-bottom: 1rem;
+}
+
+.firm-name h4 {
+    font-size: 1.4rem;
+
+}
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons-title {
+    margin-bottom: 1rem;
 }
