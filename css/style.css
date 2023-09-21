@@ -94,6 +94,7 @@ main {
 .col {
     width: calc(95% / 3);
     margin-top: 20px;
+    position: relative;
 }
 
 
@@ -119,6 +120,10 @@ main {
     text-decoration: line-through;
 }
 
+
+.heart-container {
+    
+}
 .img-container {
     position: relative;
 }
