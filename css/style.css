@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --height: 100px;
+}
+
 img {
     max-width: 100%;
 }
@@ -36,7 +40,7 @@ a {
 /* HEADER */
 
 header {
-    height: 100px;
+    height: var(--height);
     background-color: hsl(24.71deg 100% 50%);
     align-items: center;
     position: fixed;
@@ -74,13 +78,15 @@ nav {
 }
 /* MAIN */
 
-
+main {
+    padding-top: calc( var(--height) + 50px);
+}
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 150px auto;
+    margin: 0 auto;
 }
 
 
@@ -88,6 +94,7 @@ nav {
     width: calc(95% / 3);
     margin-top: 20px;
 }
+
 
 .hidden-photo {
     display:none;
