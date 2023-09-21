@@ -38,6 +38,11 @@ header {
     height: 100px;
     background-color: hsl(24.71deg 100% 50%);
     align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 2;
 }
 
 nav {
@@ -68,11 +73,13 @@ nav {
 }
 /* MAIN */
 
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px auto;
+    margin: 150px auto;
     
 }
 
@@ -124,8 +131,6 @@ nav {
     padding-left: .8rem ;
     padding-right: .8rem;
     padding: .2rem .3rem; 
- 
-     
 }
 
 .sale {
