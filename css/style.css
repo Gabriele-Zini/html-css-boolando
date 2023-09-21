@@ -30,6 +30,7 @@ a {
 .container {
     width:80%;
     margin:0 auto;
+    max-width: 1000px;
 }
 
 /* HEADER */
@@ -80,7 +81,6 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 150px auto;
-    
 }
 
 
