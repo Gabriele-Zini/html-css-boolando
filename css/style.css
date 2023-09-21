@@ -79,13 +79,14 @@ nav {
 /* MAIN */
 
 main {
-    padding-top: calc( var(--height) + 50px);
+    padding: calc( var(--height) + 20px) 0;
+
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
